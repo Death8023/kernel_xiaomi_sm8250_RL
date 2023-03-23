@@ -8671,9 +8671,8 @@ static int ufs_get_device_desc(struct ufs_hba *hba,
 			}
 		}
 	}
-	*/
 
-skip_unit_desc:
+skip_unit_desc:*/
 	/* Zero-pad entire buffer for string termination. */
 	memset(desc_buf, 0, buff_len);
 
